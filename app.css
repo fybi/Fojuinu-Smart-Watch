@@ -1,0 +1,683 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: 500;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+}
+
+h3 {
+    color: #f43d1b;
+}
+
+.section1 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.997), rgba(2, 17, 26, 0.405)), url(./images/hand-watch.png);
+    background-size: cover;
+    height: 80vh;
+    max-width: 100%;
+    color: white;
+    padding-left: 90px;
+    padding-right: 150px;
+    margin: 0;
+}
+
+#fojuinu-logo {
+    width: 200px;
+    min-height: 8vh;
+    margin-left: -20px;
+}
+
+.section1 nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.section1 li {
+    display: inline;
+    margin: 0.8rem;
+}
+
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+ul {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 400px;
+}
+
+li {
+    display: inline;
+    margin: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    float: right;
+} */
+
+.section1 #body1 {
+    margin: 90px 450px 0px 40px;
+    padding-right: 300px;
+    /* margin-left: 40px;
+    margin-right: 1050px; */
+}
+
+#watch1 {
+    width: 310px;
+    float: right;
+    margin-right: 100px;
+    transform: rotate(15deg);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.9rem;
+}
+
+.section1 p {
+    font-family: Tahoma, sans-serif;
+    font-size: 0.9rem;
+    margin: 1rem 0rem;
+}
+
+.section1 button {
+    padding: 0.75em 1.56em;
+    margin-top: 15px;
+    border-radius: 38px;
+    border-color: white;
+    transition: border-color 0.4s, background-color 0.5s;
+}
+
+.section1 button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-0.15em);
+}
+
+#buy-now {
+    font-family: Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+/* .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+} */
+
+.section2 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-top: 1.4rem;
+}
+
+#watch2 {
+    width: 300px;
+    margin-top: 4.7em;
+    transition: image 5s ease 10s;
+}
+
+#watch2:hover {
+    transform: rotate(15deg);
+}
+
+.section2 #body2 {
+    width: 30%;
+    padding: 20px;
+    margin-top: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.section2 .product-description {
+    font-size: 0.85rem;
+    margin: 1rem 0rem;
+}
+
+.section2 .color-select,
+.price {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.section2 h3 {
+    font-size: 1rem;
+}
+
+.section2 .color-palette>img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.section2 .color-palette>img:hover {
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.price {
+    margin-top: 1.5rem;
+}
+
+.price-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2 .button {
+    border-radius: 40px;
+    background-color: #f43d1b;
+    color: white;
+    /* display: inline-block; */
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+}
+
+.section2 .button:hover {
+    background-color: white;
+    color: #f43d1b;
+    border: 1px solid #f43d1b;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-top: 3rem;
+    text-align: center;
+    /* margin-top: 1.4rem; */
+}
+
+.section3 #body3 {
+    padding: 20px 158px;
+    margin-top: 3rem;
+}
+
+#features1,
+#features2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.section3 #body3 .fa {
+    font-size: 35px;
+    text-align: center;
+}
+
+.section3 #body3 span {
+    margin-right: 13em;
+}
+
+.section3 #body3 span:nth-of-type(3) {
+    margin-right: 0;
+}
+
+.section3 #body3 p {
+    font-size: 0.95em;
+}
+
+.section4 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.997), rgba(2, 17, 26, 0.405)), url(./images/hand-watch.png);
+    background-size: cover;
+    height: 50vh;
+    /* max-width: 100%; */
+    color: white;
+    padding-left: 90px;
+    padding-right: 150px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section4 .container2 {
+    padding: 0 300px;
+}
+
+.section4 .container2 p {
+    font-size: 0.95rem;
+}
+
+.section4 .container2 .fa {
+    margin-top: 0.9em;
+    font-size: 38px;
+    color: white;
+    transition: background-color 200ms ease-in-out;
+}
+
+.section4 .container2 .fa:hover {
+    color: #f43d1b;
+    font-size: 42px;
+}
+
+.section5 .container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-top: 1.4rem;
+}
+
+#watch3 {
+    width: 300px;
+    margin-top: 4.7em;
+}
+
+.section5 #body5 {
+    width: 33%;
+    margin-top: 3rem;
+    padding: 20px 90px 0px 0px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.section5 h2 {
+    margin-top: -0.3em;
+}
+
+.section5 .product-description {
+    font-size: 0.85rem;
+    margin-top: -0.5em;
+}
+
+.section5 #body5 div {
+    display: flex;
+    align-items: center;
+}
+
+.section5 span {
+    margin-top: -0.3em;
+    margin-bottom: 0.5em;
+}
+
+.section5 span h4 {
+    font-size: 0.85rem;
+    margin-top: 2em;
+}
+
+.section5 span p {
+    margin-top: -1em;
+    font-size: 0.85rem;
+}
+
+.section5 .fa {
+    font-size: 30px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px rgb(103, 101, 101);
+    padding: 0.5em;
+    margin-right: 0.3em;
+}
+
+.section5 #desktop {
+    font-size: 31px;
+}
+
+.section5 #headphones {
+    font-size: 33px;
+}
+
+.section5 .features {
+    margin-bottom: -1em;
+}
+
+.section6 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.997), rgba(2, 17, 26, 0.405)), url(./images/hand-watch.png);
+    background-size: cover;
+    height: 80vh;
+    margin: 0;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section6 h2 {
+    color: white;
+    margin-top: -0.8em;
+}
+
+.section6 .container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 3em;
+}
+
+.section6 .box {
+    background-color: white;
+    width: 350px;
+    height: 340px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 2em;
+}
+
+.section6 #box3 {
+    margin-right: 0;
+}
+
+.section6 .container6 #five-stars {
+    width: 100px;
+}
+
+.section6 p {
+    font-size: 0.85rem;
+    margin: 1.2em;
+}
+
+.section6 .customer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6 .customer-info h4 {
+    margin-top: -0.1em;
+}
+
+.section6 .customer-info p {
+    margin-top: -1.5em;
+}
+
+.section6 .customer-image {
+    width: 55px;
+    height: 55px;
+    border: 1px solid #f43d1b;
+    border-radius: 50%;
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.section7 {
+    min-height: 60vh;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.section7 .container7 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    text-align: left;
+}
+
+.section7 .question {
+    background-color: rgb(183, 183, 183);
+    border-radius: 5px;
+    width: 500px;
+    /* height: 40px; */
+    margin: 1.1em 1.1em;
+    padding: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section7 span {
+    font-weight: bold;
+}
+
+.section8 {
+    text-align: center;
+    min-height: 60vh;
+}
+
+.section8 .container8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section8 .box {
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px 1px rgb(103, 101, 101);
+    margin-right: 2em;
+    padding: 10px;
+}
+
+.section8 #box4 {
+    margin-right: 0;
+}
+
+.section8 .box :nth-child(3) {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: -0.5rem 0;
+}
+
+.section8 .box :nth-child(4) {
+    font-size: 0.9rem;
+}
+
+.section8 .box img {
+    width: 180px;
+    transform: rotate(15deg);
+}
+
+.section9 {
+    background-image: linear-gradient(0deg, rgba(11, 10, 10, 0.997), rgba(0, 0, 0, 0.67)), url(./images/hand-watch.png);
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    /* padding-left: 90px;
+    padding-right: 150px; */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.section9 img {
+    width: 300px;
+}
+
+.section9 .container9 {
+    /* padding-right: 500px; */
+    margin-left: 4rem;
+    width: 670px;
+}
+
+.container9 :nth-child(2) {
+    font-size: 0.9rem;
+}
+
+.section10 {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section10 #header {
+    text-align: center;
+}
+
+.section10 .container10 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.section10 .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 13em;
+}
+
+.section10 #support10 {
+    margin-right: 0;
+}
+
+.section10 .fa {
+    font-size: 30px;
+    margin-right: 0.8em;
+}
+
+.section10 h4 {
+    margin-bottom: -0.5em;
+}
+
+.section11 {
+    min-height: 80vh;
+}
+
+.section11 .container11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6em;
+    margin-left: 13em;
+}
+
+.section11 #section11-watch {
+    width: 370px;
+    margin-top: 5em;
+    margin-right: 3em;
+}
+
+.section11 .body11 {
+    width: 40%;
+    margin-top: 3em;
+    padding: 20px 90px 0px 0px;
+}
+
+.section11 #description {
+    font-size: 0.9rem;
+    margin-top: -1em;
+}
+
+.section11 form {
+    margin-top: 2rem;
+}
+
+.section11 form #name,
+#email,
+#subject {
+    width: 85%;
+    height: 2.5rem;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(227, 225, 225);
+}
+
+.section11 form #message {
+    width: 85%;
+    padding: 10px 0px 80px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(227, 225, 225);
+}
+
+form button {
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(103, 101, 101);
+}
+
+.section12 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.997), rgba(0, 0, 0, 0.67)), url(./images/hand-watch.png);
+    background-size: cover;
+    height: 40vh;
+    color: white;
+    padding: 70px 80px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.section12 .container12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.section12 .box {
+    display: flex;
+    flex-direction: column;
+}
+
+.section12 #box4 {
+    width: 25em;
+}
+
+.section12 #box4 #newsletter-subscribe {
+    display: flex;
+    flex-direction: row;
+}
+
+.section12 #newsletter-box {
+    width: 70%;
+    height: 2rem;
+    padding-left: 10px;
+    margin-top: 1em;
+    border: none;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: white;
+}
+
+.section12 #box4 button {
+    background-color: #f43d1b;
+    width: 30%;
+    height: 2.1rem;
+    margin-top: 1em;
+    border: none;
+    color: white;
+}
+
+.section12 a {
+    color: white;
+}
+
+.section12 #copyright {
+    border-top: 1px solid #4d4b4b;
+    height: 15vh;
+    margin-top: 6em;
+    text-align: center;
+}
